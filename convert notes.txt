@@ -1,0 +1,7 @@
+
+convert marienburg_city_map_warhammer_by_planjanusza_degbin1.jpg -brightness-contrast -40x10 -units pixelsperinch -density 300 -negate -noise 10 -threshold 70% processed/prep_marienburg_city_map_warhammer_by_planjanusza_degbin1.png
+convert -density 300 marienburg_city_map_warhammer_by_planjanusza_degbin1.jpg -depth 8 -strip -background white -alpha off processed/prep_marienburg_city_map_warhammer_by_planjanusza_degbin1.png
+convert marienburg_city_map_warhammer_by_planjanusza_degbin1.jpg negate -threshold 100 -negate processed/prep_marienburg_city_map_warhammer_by_planjanusza_degbin1.png
+
+
+convert marienburg_city_map_warhammer_by_planjanusza_degbin1.jpg -brightness-contrast -40x10 -units pixelsperinch -density 300 -negate -noise 10 -threshold 70% processed/result.tif
