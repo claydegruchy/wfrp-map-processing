@@ -5,3 +5,4 @@ convert marienburg_city_map_warhammer_by_planjanusza_degbin1.jpg negate -thresho
 
 
 convert marienburg_city_map_warhammer_by_planjanusza_degbin1.jpg -brightness-contrast -40x10 -units pixelsperinch -density 300 -negate -noise 10 -threshold 70% processed/result.tif
+
